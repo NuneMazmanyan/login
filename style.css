@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(149, 213, 255);
+}
+h1{
+    width:90%;
+    margin: 15px auto;
+    
+}
+header, section{
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+    margin: 2% auto;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.addres{
+    width:25%;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.map{
+    width: 20%;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+input{
+    margin: 5px 5px 5px 0px;
+    padding: 10px;
+}
+textarea{
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+}
+button{
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 8px;   
+    margin-top: 8px;
+    width: fit-content;
+}
+button:hover{
+    background-color: rgb(199, 16, 114);
+}
+aside{
+    width: 45%;
+}
+iframe{
+    border:0;
+    width: 90%;
+    height: 450px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.logos{
+    display: flex;
+}
